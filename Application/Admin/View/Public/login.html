@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="__PUBLIC__/Common/css/base.css" />
+    <link rel="stylesheet" href="__PUBLIC__/Common/css/login.css" />
+    <title>I-Learn后台登录</title>
+</head>
+<body>
+<!--hr style="margin: 80px 0 0 0; height: 1px; width: auto;background: #46b8da;"/-->
+<div id="container">
+    <form action="{:U('checkLogin')}" method="post">
+        <div id="bd">
+            <div class="login1">
+                <div class="login-top" style="text-align: center;"><h1 class="logo">
+                    <font style="font-size: 50px;font-weight: 800;">I-Learn</font><br/>
+                    <font style="font-size: 30px;font-weight: 800;">No pains ,no gains.</font></h1></div>
+                <div class="login-input">
+                    <p class="user ue-clear">
+                        <label style="font-weight: 800;">用户名</label>
+                        <input type="text" name="username" />
+                    </p>
+                    <p class="password ue-clear">
+                        <label style="font-weight: 800;">密&nbsp;&nbsp;&nbsp;码</label>
+                        <input type="password" name="password" />
+                    </p>
+                    <p class="yzm ue-clear">
+                        <label style="font-weight: 800;">验证码</label>
+                        <input type="text" name="captcha" maxlength="4" />
+
+                        <cite><img style="margin-left: 3px;" src="__CONTROLLER__/captcha" onclick="this.src='__CONTROLLER__/captcha/t/'+Math.random()" /></cite>
+                    </p>
+                </div>
+                <div class="login-btn ue-clear">
+                    <a href="javascript:;" class="btn">登录</a>
+                    <div class="remember ue-clear">
+                        <input type="checkbox" id="remember" />
+                        <em></em>
+                        <label for="remember">记住密码</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<div id="ft" style="font-weight: 800;">CopyRight&nbsp;2020&nbsp;&nbsp;版权所有&nbsp;&nbsp;I-learn.com专注于ui设计&nbsp;&nbsp;渝ICP备09003079号</div>
+</body>
+<script type="text/javascript" src="__PUBLIC__/Common/js/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/Common/js/common.js"></script>
+<script type="text/javascript">
+    var height = $(window).height();
+    $("#container").height(height);
+    $("#bd").css("padding-top",height/2 - $("#bd").height()/2);
+
+    $(window).resize(function(){
+        var height = $(window).height();
+        $("#bd").css("padding-top",$(window).height()/2 - $("#bd").height()/2);
+        $("#container").height(height);
+
+    });
+
+    $('#remember').focus(function(){
+        $(this).blur();
+    });
+
+    $('#remember').click(function(e) {
+        checkRemember($(this));
+    });
+
+    function checkRemember($this){
+        if(!-[1,]){
+            if($this.prop("checked")){
+                $this.parent().addClass('checked');
+            }else{
+                $this.parent().removeClass('checked');
+            }
+        }
+    }
+
+    //jQuery代码
+    $(function(){
+        //给登录按钮绑定点击事件
+        $('.btn').on('click',function(){
+            //事件处理程序
+            $('form').submit();
+        });
+    });
+</script>
+</html>
