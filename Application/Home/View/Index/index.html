@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>I-Learn首页</title>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/COMMOM/css/bootstrap.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/COMMON/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="__PUBLIC__/HOME/css/Style.css"/>
+
+</head>
+<body>
+<header class="header">
+    <nav class="navbar navbar-default" role="navigation" style="background: white;height: 80px;">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <div class="container">
+                    <div class="raw">
+                        <div class="col-md-3">
+                            <img class="logo" src="__PUBLIC__/Home/images/logo.png">
+                            <font class="word" color="#46b8da" style="font-weight: 800;">I-Learn</font>
+                            <button type="button" style="margin-top:20px; " class="navbar-toggle" data-toggle="collapse" data-target="#example-navbar-collapse">
+                                <span class="sr-only">切换导航</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button></div>
+                        <div class="col-md-9">
+                            <div class="collapse navbar-collapse" id="example-navbar-collapse">
+                                <ul class="nav navbar-nav navbar-right" style="margin-top: 20px;">
+                                    <li class="ti"><a href="{:U('Index/index')}" style="font-size:20px;font-weight: 400;color: #46b8da;">首页</a></li>
+                                    <li class="ti"><a href="{:U('Index/aboutUs')}" style="font-size:20px;font-weight: 400;color: #46b8da;">关于我们</a></li>
+                                    <li class="ti"><a href="{:U('User/register')}" style="font-size:20px;font-weight: 400;color: #46b8da;">注册</a></li>
+                                    <li class="ti"><a href="{:U('Public/login')}" style="font-size:20px;font-weight: 400;color: #46b8da;">登录</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+<!--技术网址-->
+<section id="1" style="width: 100%;">
+    <hr style="margin: 80px 0 0 0; height: 1px; width: 100%;background: #46b8da;"/>
+    <div class="container" style="margin-top: 10px;">
+        <div class="raw">
+            <div class="col-md-6">
+                <div style="text-align: center;font-size: 20px;font-weight: 800;color: red;">MOOC</div>
+                <a href="http://www.mooc.cn/course" style="text-decoration: none;">
+                    <img src="__PUBLIC__/Home/images/MOOC/logo.png" style="width:100px;height: 30px;margin-left: 0;"/></a>
+                <a href="http://www.chinesemooc.org/" style="text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 12%;"><font style="color: #46b8da;">华文</font><font style="color:red;">MOOC</font></a>
+                <a href="https://www.coursera.org/about/partners/cn" style="text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 12%;"><font style="color: #46b8da;">美服</font><font style="color:red;">MOOC</font></a>
+                <br/>
+                <a href="https://www.icourse163.org/" style="text-decoration: none;font-size: 20px;font-weight: 800;"><font style="color: #46b8da;">中国大学</font><font style="color:red;">MOOC</font></a>
+                <a href="https://www.edx.org/" style="text-decoration: none;font-size: 20px;font-weight: 800;margin-left: 7%;"><font style="color: #46b8da;">麻省</font><font style="color:red;">MOOC</font></a>
+                <a href="https://www.mooc-list.com/initiative/open2study" style="font-size: 20px;text-decoration: none;font-weight: 800;margin-left: 7%;"><font style="color: #46b8da;">澳洲</font><font style="color:red;">MOOC</font></a></a>
+            </div>
+            <div class="col-md-6">
+                <div style="text-align: center;font-size: 20px;color: blue; font-weight: 800;">Paper</div>
+                <a href="http://www.dart-europe.eu/basic-search.php" style="text-decoration: none;color: blue;  font-size: 20px;font-weight: 800;">学术论文</a>
+                <a href="https://new.shuge.org/" style="text-decoration: none; color: blue; font-size: 20px;font-weight: 800;margin-left: 18%;">书格</a>
+                <a href="http://www.ncpssd.org/journal/list.aspx?p=1&e=C%3DD%2CE126%2CE266%2CDF&h=%E6%94%BF%E6%B2%BB%E6%B3%95%E5%BE%8B&langType=1"
+                   style="text-decoration: none; font-size: 20px;color: blue; font-weight: 800;margin-left: 15%;">国家哲学科学文献</a>
+                <br/>
+                <a href="https://wenku.lingfengyun.com/" style="text-decoration: none; color: blue; font-size: 20px;font-weight: 800;">凌风云文库</a>
+                <a href="https://www.planetebook.com/" style="text-decoration: none; font-size: 20px;color: blue; font-weight: 800;margin-left: 10%">外语文库</a>
+                <a href="http://www.wanfangdata.com.cn/index.html" style="text-decoration: none; color: blue; font-size: 20px;font-weight: 800;margin-left: 10%;">万方数据论文文献</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--其他学习网址-->
+<section id="3">
+    <hr style="margin: 80px 0 0 0; height: 1px; width: auto;background: #46b8da;"/>
+    <div class="container" style="margin-top: 10px;">
+        <div class="raw">
+            <div class="col-md-6">
+                <div style="text-align: center;font-size: 20px;color: green; font-weight: 800;">Hobby</div>
+                <a href="http://www.arti200.com/" style="text-decoration: none; color: green; font-size: 20px;font-weight: 800;">原画梦</a>
+                <a href="https://www.uisdc.com/" style="text-decoration: none;color: green; font-size: 20px;font-weight: 800;margin-left: 26%;">优设网</a>
+                <a href="http://www.duolingo.cn/" style="text-decoration: none;color: green; font-size: 20px;font-weight: 800;margin-left: 26%;">多邻国</a>
+                <br/>
+                <a href="https://www.pixseed.com/opencourses" style="text-decoration: none;color: green; font-size: 20px;font-weight: 800;">像素种子</a>
+                <a href="http://wap.mofunenglish.com/index.php?act=course" style="text-decoration: none;color: green; font-size: 20px;font-weight: 800;margin-left: 15%;">魔方英语</a>
+                <a href="https://www.chinavoa.com/" style="text-decoration: none;color: green; font-size: 20px;font-weight: 800;margin-left: 15%;">VOA美国之音</a>
+
+            </div>
+            <div class="col-md-6">
+                <div style="text-align: center;font-size: 20px;color: deeppink; font-weight: 800;">Study</div>
+                <a href="http://www.xuetangx.com/" style="color: deeppink;text-decoration: none; font-size: 20px;font-weight: 800;">学堂在线</a>
+                <a href="http://www.ewant.org/" style="color: deeppink;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 26%;">ewant</a>
+                <a href="https://www.wanmen.org/" style="color: deeppink;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 26%;">万门</a>
+                <br/>
+                <a href="http://open.nlc.cn/onlineedu/client/index.htm" style="color: deeppink;text-decoration: none; font-size: 20px;font-weight: 800;">国图公开课</a>
+                <a href="https://study.163.com/" style="color: deeppink;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 16%;">网易云课堂</a>
+                <a href="https://www.jikexueyuan.com/" style="color: deeppink;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 16%;">极客学院</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="4">
+    <hr style="margin: 80px 0 0 0; height: 1px; width: auto;background: #46b8da;"/>
+    <div class="container" style="margin-top: 10px;">
+        <div class="raw">
+            <div class="col-md-6">
+                <div style="text-align: center;font-size: 20px;color: blueviolet; font-weight: 800;">Coding</div>
+                    <a href="https://developers.weixin.qq.com/" style="color: blueviolet;text-decoration: none; font-size: 20px;font-weight: 800;">微信小程序</a>
+                <a href="" style="color: blueviolet;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 15%;">PAT</a>
+                <a href="http://www.qtcn.org/bbs/i.php" style="color: blueviolet;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 15%;">QTCN开发网</a>
+                <br/>
+                <a href="http://www.qter.org/" style="color: blueviolet;text-decoration: none; font-size: 20px;font-weight: 800;">qt开源社区</a>
+                <a href="https://npm.taobao.org/mirrors/git-for-windows/" style="color: blueviolet;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 19%;">GIT</a>
+                <a href="http://edsionte.com/techblog/archives/1336" style="color: blueviolet;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 19%;">内核管理</a>
+            </div>
+            <div class="col-md-6">
+                <div style="text-align: center;font-size: 20px;color: orange; font-weight: 800;">Language</div>
+                    <a href="http://www.runoob.com/" style="color: orange;text-decoration: none; font-size: 20px;font-weight: 800;">菜鸟教程</a>
+                <a href="http://c.biancheng.net/" style="color: orange;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 15%;">C语言中文网</a>
+                <a href="http://www.php.cn/" style="color: orange;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 14%;">PHP中文网</a>
+                <br/>
+                <a href="https://www.bootcss.com/" style="color: orange;text-decoration: none; font-size: 20px;font-weight: 800;">Bootstrap中文网</a>
+                <a href="https://www.runoob.com/python/python-basic-syntax.html" style="color: orange;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 10%;">Python基础</a>
+                <a href="https://www.oschina.net/blog" style="color: orange;text-decoration: none; font-size: 20px;font-weight: 800;margin-left: 10%;">Linux</a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="footer">
+        <hr style="margin: 0 0 0 0; height: 1px; width: auto;background: #46b8da;"/>
+        <div class="container" style="margin-top: 10px;" >
+            <div class="raw">
+                <div class="col-md-12" style="margin-left: 10%;">
+                    <p style="color: white;font-size: 15px;">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;地址:重庆市沙坪坝区大学城
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话:123456789
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传真:(123)456-789
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮箱:I-Learn@qq.com</p>
+                </div>
+                </div>
+            </div>
+    </footer>
+
+</body>
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</html>
