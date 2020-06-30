@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bacc77b3-ed38-4e5c-b9a9-d2dd866797e2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Application/Home/Common/Common/function.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/Common/Conf/config.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/Controller/CommonController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/Controller/PublicController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/Controller/UserController.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/Model/UserModel.class.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/View/Empty/error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/View/Index/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/View/Index/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/View/Public/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/View/User/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/View/User/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Application/Home/View/User/register.html" afterDir="false" />
+    <list default="true" id="bacc77b3-ed38-4e5c-b9a9-d2dd866797e2" name="Default Changelist" comment="增加动态功能">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/2.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +46,21 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\study\i-Learn\Application" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\study\i-Learn\Application\Home\Controller" />
       <recent name="D:\study\i-Learn\Application\Home\Model" />
       <recent name="D:\study\i-Learn\Application\Admin\Home\View" />
       <recent name="D:\study\i-Learn\Application\Admin\Home" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Application\phpStudy\WWW\i-Learn\Application\Home\View\Active" />
+      <recent name="D:\Application\phpStudy\WWW\i-Learn\Application\Home\View" />
+      <recent name="D:\Application\phpStudy\WWW\i-Learn\Application\Home\Model" />
+      <recent name="D:\Application\phpStudy\WWW\i-Learn\Application\Home\Controller" />
+      <recent name="D:\study\i-Learn\Application" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html (1)">
@@ -95,8 +103,24 @@
       <option name="presentableId" value="Default" />
       <updated>1593328371849</updated>
       <workItem from="1593328373129" duration="3103000" />
-      <workItem from="1593332118023" duration="582000" />
+      <workItem from="1593332118023" duration="2548000" />
+      <workItem from="1593496576156" duration="986000" />
     </task>
+    <task id="LOCAL-00001" summary="添加用户注册、登录、修改信息的功能">
+      <created>1593333030733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593333030733</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加动态功能">
+      <created>1593430356341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1593430356341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +136,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加用户注册、登录、修改信息的功能" />
+    <MESSAGE value="增加动态功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加动态功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593332210411">
@@ -130,5 +160,13 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1593328650179" />
+    <state x="270" y="57" key="SettingsEditor" timestamp="1593498929864">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593498929864" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593430383067">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1593430383067" />
   </component>
 </project>
