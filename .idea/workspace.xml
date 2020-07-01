@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bacc77b3-ed38-4e5c-b9a9-d2dd866797e2" name="Default Changelist" comment="add function: email">
-      <change afterPath="$PROJECT_DIR$/Application/Home/Controller/EmailController.class.php" afterDir="false" />
+    <list default="true" id="bacc77b3-ed38-4e5c-b9a9-d2dd866797e2" name="Default Changelist" comment="add file: EmailController.class.php">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +107,7 @@
       <workItem from="1593332118023" duration="2548000" />
       <workItem from="1593496576156" duration="1499000" />
       <workItem from="1593500998667" duration="272000" />
-      <workItem from="1593579640702" duration="1622000" />
+      <workItem from="1593579640702" duration="2814000" />
     </task>
     <task id="LOCAL-00001" summary="添加用户注册、登录、修改信息的功能">
       <created>1593333030733</created>
@@ -145,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593579803856</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add file: EmailController.class.php">
+      <created>1593584767529</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593584767529</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,7 +175,8 @@
     <MESSAGE value="增加通知功能" />
     <MESSAGE value="补充资源文件" />
     <MESSAGE value="add function: email" />
-    <option name="LAST_COMMIT_MESSAGE" value="add function: email" />
+    <MESSAGE value="add file: EmailController.class.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="add file: EmailController.class.php" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593332210411">
@@ -192,10 +199,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593498929864" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593579819939">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1593584791822">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1593430383067" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1593584791822" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593579819939" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/Application/Home/Controller/EmailController.class.php</url>
+          <line>6</line>
+          <properties>
+            <option name="className" value="\Home\Controller\EmailController" />
+            <option name="methodName" value="send" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
